@@ -1,0 +1,284 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Main CSS */
+body {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  background-color: #eaeaea;
+  background-image: url(img/bg.png);
+  color: #333;
+}
+
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: teal;
+  height: 50px;
+  z-index: 9999;
+}
+
+.top-bar p {
+  text-align: center;
+  line-height: 50px;
+  font-weight: bolder;
+  color: white;
+}
+
+.container {
+  margin: 80px auto;
+  width: 1000px;
+  background-color: #fff;
+  position: relative;
+}
+
+.header {
+  padding: 30px;
+  color: teal;
+}
+
+.header .judul {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+li {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 10px;
+}
+
+.header a {
+  text-decoration: none;
+  color: #333;
+}
+
+.header a:hover {
+  color: teal;
+  font-weight: bold;
+}
+
+.hero {
+  height: 330px;
+  background-image: url(img/code.png);
+  background-size: cover;
+  background-position: -180px -20px;
+}
+
+.content {
+  padding: 20px;
+  width: 70%;
+  float: left;
+  padding-right: 50px;
+  box-sizing: border-box;
+}
+
+.content h2 {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.content .penulis {
+  font-size: 11px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.content .penulis a {
+  text-decoration: none;
+  color: teal;
+}
+
+.content .penulis a:hover {
+  font-weight: bold;
+}
+
+.content p {
+  margin-bottom: 20px;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.footer {
+  background-color: #333;
+}
+
+.footer .copy {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+  font-size: 12px;
+}
+
+.cf::before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
+
+.sidebar img {
+  width: 90px;
+  height: 110px;
+  float: left;
+}
+
+.sidebar {
+  margin: 20px;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.sidebar h3 {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.sidebar p {
+  font-size: 14px;
+}
+
+.twitter {
+  width: 200px;
+  height: 200px;
+  background-image: url(img/twitter-ribbon.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  text-indent: -9999px;
+  position: absolute;
+  right: -113px;
+  top: -11px;
+}

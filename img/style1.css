@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 800px;
+  border: 1px solid black;
+  margin: auto;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+/* .kotak {
+  background-color: teal;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  line-height: 80px;
+  color: white;
+  font-size: 18px;
+  float: left;
+} */
+
+.kiri {
+  background-color: teal;
+  height: 400px;
+  width: 150px;
+  float: left;
+}
+
+.tengah {
+  background-color: blue;
+  height: 400px;
+  width: 500px;
+  float: left;
+}
+
+.kanan {
+  background-color: brown;
+  height: 400px;
+  width: 150px;
+  float: left;
+}
+
+.cf::before,
+.cf:after {
+  content: " ";
+  display: table;
+}
+
+.cf:after {
+  clear: both;
+}
